@@ -1,0 +1,19 @@
+{
+  "wget93":{
+    "author":"1024x2",
+    "description":"wget, now on Windows 93!",
+    "runAtStartup":false,
+    "leCompatible":true,
+    "version":"^0.1.0",
+    "scriptlets":[
+      {
+        "name":"wget93.js",
+        "execute":true
+      },
+      {
+        "name":"unwget93.js",
+        "uninstaller":true
+      }
+    ]
+  }
+}
